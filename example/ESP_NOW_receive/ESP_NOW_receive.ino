@@ -21,6 +21,7 @@ void OnDataRecv(const uint8_t * mac, const uint8_t *incomingData, int len) {
       Serial.print(Data.attack[i]);
       Serial.print(" ");
     }
+    Serial.println(" ");
 }
  
 void setup() {
